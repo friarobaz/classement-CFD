@@ -68,7 +68,6 @@
 		const pointsWithoutWorseFlight = pilot.points - min
 		return expectedPoints - pointsWithoutWorseFlight
 	}
-	
 
 </script>
 
