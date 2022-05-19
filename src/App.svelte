@@ -4,8 +4,9 @@
 	let filtered = []
 	const SHORTCUTS = ['BAPTISTE MARCHAND', 'JULES MARCHAND']
 
+	
+
 	const getPilotsFromCFD = async ()=>{
-		
 		const response = await fetchCFD()
 		const data = response.data
 		const dataArray = data.split("\n")
